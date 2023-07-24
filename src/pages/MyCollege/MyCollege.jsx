@@ -4,6 +4,7 @@ import SectionTitle from '../../components/SectionTitle';
 import useAuth from '../../hooks/useAuth';
 import useAxiosSecure from '../../hooks/useAxiosSecure';
 import Swal from 'sweetalert2';
+import toast from 'react-hot-toast';
 import MyCollegeRow from './MyCollegeRow';
 import UpdateModal from './UpdateModal';
 
@@ -88,6 +89,8 @@ const MyCollege = () => {
                                 });
                             }
                         });
+                } else {
+                    toast.error('Please update a value!!');
                 }
             });
     };
