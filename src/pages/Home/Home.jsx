@@ -1,7 +1,7 @@
-// import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import PopularColleges from './PopularColleges';
 import PhotoGallery from './PhotoGallery';
+import Review from './Review';
 import './Home.css'
 
 const Home = () => {
@@ -12,6 +12,7 @@ const Home = () => {
             </Helmet>
             <PopularColleges />
             <PhotoGallery />
+            <Review />
         </>
     );
 };

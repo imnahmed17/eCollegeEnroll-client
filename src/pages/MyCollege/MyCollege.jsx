@@ -69,7 +69,8 @@ const MyCollege = () => {
     const handleUpdate = (info, id) => {
         const { cName, canName, rating, phone, dob, review } = info;
         const updatedApplication = { phone, dob };
-        const collegeReview = { cName, canName, rating, review };
+        const canImage = user.photoURL;
+        const collegeReview = { cName, canName, canImage, rating, review };
 
         axiosSecure.put(`/application/${id}`, updatedApplication)
             .then(res => {

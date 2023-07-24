@@ -37,7 +37,7 @@ const PhotoGallery = () => {
 
     return (
         <div className='my-14'>
-            <div className=''>
+            <div>
                 <SectionTitle title='Gallery' />
             </div>
             <Slider {...settings} className="mt-12">
