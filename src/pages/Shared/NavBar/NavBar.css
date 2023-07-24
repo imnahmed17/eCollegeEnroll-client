@@ -1,0 +1,7 @@
+.active {
+    @apply font-semibold tracking-wide text-blue-900 transition-colors duration-200
+}
+
+.default {
+    @apply font-semibold tracking-wide text-gray-500 transition-colors duration-200 hover:text-blue-900
+}

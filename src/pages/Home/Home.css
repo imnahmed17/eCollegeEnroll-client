@@ -1,0 +1,15 @@
+.slick-slide { 
+    padding: 20px;
+}
+
+.slick-slide.slick-center img {
+    transform: scale(1.2);
+}
+
+.slick-dots li.slick-active {
+    transform: scale(1.7);
+}
+
+.slick-arrow {
+    filter: invert(1);
+}
